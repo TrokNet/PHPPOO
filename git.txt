@@ -1,0 +1,20 @@
+Iniciar git
+git init
+//Seguir un documento
+git add
+//Ver el status 
+git status -s
+Agregar un commit
+git commit -m "Comentario"
+//Dar seguimiento a toodo
+git add .
+//Commit y ADD a la vez
+git commit -am "Comentario"
+//Abrir VIM desde GIT
+git commit --amend
+//mandar a github
+git push
+//obtener de github
+git pull
+//token github
+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

@@ -1,4 +1,5 @@
 <?php
+     
      //Programacion Orientada a Objetos
 
     //Definir una clase (molde para crear mas objetos de tipo coche con caracteristicas parecidas)
@@ -19,7 +20,7 @@
     }
 
     public function setColor($color){
-        $this ->color = $color;
+        $this ->color = $color;@
     }
 
     public function acelerar(){

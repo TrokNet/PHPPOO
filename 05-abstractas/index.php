@@ -1,6 +1,6 @@
 <?php
      
-   abstract class OrdenadorP{
+   abstract class Ordenador{
 
     public $encendido;
     
@@ -13,13 +13,17 @@
      
    class PcAsus extends Ordenador{
        public $software;
-
+      
+       //public function arrancarSoftware(){
+         //  $this->software = true;
+       //}
        public function encender(){
         $this->encendido = true;
        }
-
-       public function arrancarSoftware(){
-           $this->software = true;
-       }
    }
-?>
+   $objordenador = new PcAsus();
+   var_dump($objordenador);
+   $objordenador->encendido = false;
+   $objordenador->apagar(true);
+   $objordenador->software = 'Trok';
+   var_dump($objordenador);
